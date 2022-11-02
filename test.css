@@ -72,6 +72,7 @@ header {
 	z-index: 1;
 	background-color: #393E46;/*#010223;*/
 	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+	transition: top 0.3s;
 }
 
 header > img:first-of-type {
