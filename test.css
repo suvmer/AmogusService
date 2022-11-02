@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	color: #EEEEEE;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    /*font-family: Inter,sans-serif;*/
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+
+body {
+	/*background-color: rgb(34, 34, 34);*/
+	background-color: #222831;/*#010223;*/
+	/*background-image: url(/my-app/src/logo.svg);
+	background-size: 100px;*/
+	/*background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M399 543L398 296' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1252 374L1251 775' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M13 243L12 -36' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1430 479L1429 889' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M937 533L936 175' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M475 167L474 504' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1075 165L1074 -107' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M451 29L450 420' stroke-width='8' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M865 24L864 428' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M579 308L578 34' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1234 526L1233 146' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M716 82L715 -86' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1051 83L1050 374' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M456 414L455 637' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M851 339L850 637' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M71 355L70 -3' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1005 397L1004 157' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1262 138L1261 -125' stroke-width='8' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M367 418L366 174' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M49 114L48 -271' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1228 546L1227 829' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M361 184L360 -146' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1429 134L1428 -180' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M542 38L541 432' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M730 345L729 167' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M136 249L135 596' stroke-width='8' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M873 532L872 235' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M833 87L832 -151' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1321 160L1320 -56' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M914 288L913 690' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M92 408L91 745' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M777 241L776 -129' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M300 29L299 217' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M511 167L510 -174' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1093 323L1092 -38' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M579 439L578 818' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient1001'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1002'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+*/	display: flow-root;
+}
+
+
+.redbtn {
+    font-size: 25px;
+	padding: 15px 40px;
+    /*background-color: #00ADB5;/*rgba(255, 0, 0, 0.804);*/
+	border: solid 2px #00ADB5;
+	border-radius: 0px 10px;
+	display: inline-block;
+}
+.redbtn:active {
+    background-color: #00ADB5;/*rgba(255, 0, 0, 0.804);*/
+}
+.redbtn:hover {
+    background-color: #00acb542;/*rgba(255, 0, 0, 0.804);*/
+}
+.redbtn_border {
+	border-radius: 10px 10px 10px 0px;
+	height: 100%;
+}
+.icon {
+	width: 30px;
+	height: 30px;
+}
+svg path {
+	fill: #EEEEEE !important;
+}
+.bordbtn {
+	border: solid 2px #00ADB5;
+	border-radius: 0 15px;
+	padding: 7px;
+}
+
+.input {
+	background-color: transparent;
+	border: solid 2px #00ADB5;
+	border-radius: 10px;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+.input:focus {
+	outline: none;
+	border-color: #EEEEEE;
+}
+
+/* header */
+header {
+	position: fixed;
+	display: flex;
+	width: 100%;
+	justify-content:center;
+	align-items: center;
+	z-index: 1;
+	background-color: #393E46;/*#010223;*/
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+header > img:first-of-type {
+	height: calc(80px + 2vh);
+	width: calc(80px + 2vh);
+}
+
+header * {
+	font-size: calc(20px + 1vh) !important;
+}
+header .redbtn {
+	padding: calc(10px + 1vh) (35px + 1vh) !important;
+}
+
+header, #topnav {
+	list-style-type: none;  /*убираем маркеры списка*/
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+#menu {
+	display: none;
+	cursor: pointer;
+}
+#auth_button {
+	order: 1;
+}
+#auth {
+	visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	
+	position: fixed;
+	z-index: 2;
+	width: 100vw;
+	height: 80vh;
+}
+#auth_window {
+	width: 500px;
+	height: 500px;
+	display: flex;
+	padding: 30px;
+	gap: 20px;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #393e46e9;/*#010223;*/
+	box-shadow: 10px 10px 8px 5px rgba(0, 0, 0, 0.51);
+	z-index: 3;
+}
+@media screen and (max-width: 900px) {
+	header .redbtn{
+		font-size: 20px;
+	}
+	.redbtn {
+		padding: 10px 30px;
+	}
+	header #topnav { /**:not(:first-child) {*/
+		height: 0px;
+		width: 0px;
+		overflow: hidden;
+	}
+	header {
+		justify-content: space-between;
+	}
+	#menu {
+		display: block !important;
+		margin: 0 35px;
+	}
+	.rotate {
+		transition: 120ms linear transform;
+		transform: rotate(90deg);
+	}
+	.stand {
+		transition: 120ms linear transform;
+		transform: rotate(0deg);
+	}
+	.posts_list {
+		margin: 0 auto!important;
+		width: 95% !important;
+	}
+	.search {
+		display: block;
+		margin: auto;
+	}
+	.active {
+		flex-direction: column;
+		height:auto !important;
+		width: auto !important;
+		gap: 0px;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		align-items:flex-end;
+		margin-right: 0px;
+		background-color: #393E46;
+		padding: 10px;
+		border-radius: 10px;
+	}
+	.active *{
+		width: 250px;
+		height: auto;
+	}
+	.active .icon, .active .icon svg{
+		width: 40px;
+		height: 40px;
+	}
+	#auth_button {
+		margin-top: 20px;
+		margin-left: 20px;
+		order: 0;
+		margin-right: auto;
+	}
+	#auth_button path {
+		fill: yellow !important;
+	}
+}
+
+/* my space */
+
+
+
+
+
+/* 1pattern */
+
+
+/* 2 pattern */
+
+main {
+	margin-top: calc(100px + 2vh);
+	/*display: flex;
+	flex-direction: column;
+	align-items: center;*/
+}
+
+.item {
+	height: 20vh;
+	width: 140px;
+	background-color: rgb(221, 255, 244);
+}
+
+.posts_list {
+	/*background-color: rgba(255, 255, 255, 0.2);*/
+    /*margin: 0 500px;*/
+	width: 600px;
+	min-height: 1400px;
+	margin: auto;
+}
+.post {
+	width: 100%;
+	display:block;
+	background-color: rgba(0, 0, 0, 0.2);
+	min-height: 200px;
+	position: relative;
+	/*white-space: pre-line; /*разрыв линий там, где это в коде*/
+	/*box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	*/
+	box-shadow: 10px 10px 8px 5px rgba(0, 0, 0, 0.51);
+	overflow: auto; /*TODO: разобраться, почему тут не норм отображает*/
+}
+.post_head {
+	padding: 25px 25px 0px 25px;
+	display: flex;
+	justify-content: space-between;
+	text-indent: 15px;
+}
+.post_head .icon{
+	margin-right: 15px;
+}
+.post_foot {
+	display:flex;
+	padding: 15px 30px 25px 30px;
+	gap: 10px;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.post_foot .like_comment {
+	display:flex;
+	gap: 10px;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.post_foot svg {
+	width: 30px;
+	height: 30px;
+}
+
+.post:not(:first-child) {
+	margin-top: 20px;
+}
+.post img {
+	max-width: 100%;
+	max-height: 100%;
+	display:inline-block;
+}
+.title {
+	display: inline-block;
+	/*margin-right: 50px;*/
+	/*width: 39%;/*49.5807285308837%;*/
+	font-size: 26px;
+	/*float: left; /*делает автоматически display: block; и говорит прижать элемент к левой части родителя*/
+}
+.time {
+	font-size: 14px;
+	color: lightgray;
+	float: right;
+	clear: both;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+.desc {
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-indent: 30px;
+	font-size: 16px;
+	padding: 0px 25px;
+}
+/* 3pattern */
+
+.grid {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.grid > div {
+	background-color: rgb(240, 208, 255);
+	flex: 0 32%;
+	height: 100px;
+	margin-bottom: 10px;
+}
