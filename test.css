@@ -26,6 +26,7 @@ body {
 	border: solid 2px #00ADB5;
 	border-radius: 0px 10px;
 	display: inline-block;
+	cursor: pointer;
 }
 .redbtn:active {
     background-color: #00ADB5;/*rgba(255, 0, 0, 0.804);*/
@@ -99,6 +100,7 @@ header, #topnav {
 }
 #auth_button {
 	order: 1;
+	cursor: pointer;
 }
 #auth {
 	visibility: hidden;
