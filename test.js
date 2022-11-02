@@ -1,3 +1,15 @@
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementsByTagName('header')[0].style.top = "0";
+  } else {
+    document.getElementsByTagName('header')[0].style.top = "-250px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
 toggleMenuVisible = () => {
   var x = document.getElementById("topnav"), m = document.getElementById("menu"); //rotate
   if (menuVisible) {
